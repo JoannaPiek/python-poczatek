@@ -7,9 +7,6 @@ orders = [{
 }]
 
 def order_products(prod_name, quantity_ordered):
-    #for product_name in list_of_products:
-     #   name = list_of_products[product_name]
-      #  if name == prod_name:
     quantity = int(list_of_products[prod_name]["ilosc"])
     price = int(list_of_products[prod_name]["cena"])
     if quantity_ordered < quantity:
